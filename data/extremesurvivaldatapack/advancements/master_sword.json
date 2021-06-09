@@ -6,12 +6,12 @@
 			"trigger":"minecraft:recipe_unlocked",
 			"conditions":
 			{
-				"recipe":"itz_smp_lvl2:netherite_master_sword"
+				"recipe":"extremesurvivaldatapack:netherite_master_sword"
 			}
 		}
 	},
 	"rewards":
 	{
-		"function":"itz_smp_lvl2:nether_master_sword"
+		"function":"extremesurvivaldatapack:nether_master_sword"
 	}
 }

@@ -6,12 +6,12 @@
 			"trigger":"minecraft:recipe_unlocked",
 			"conditions":
 			{
-				"recipe":"itz_smp_lvl2:netherite_apollo_bow"
+				"recipe":"extremesurvivaldatapack:netherite_apollo_bow"
 			}
 		}
 	},
 	"rewards":
 	{
-		"function":"itz_smp_lvl2:nether_apollo_bow"
+		"function":"extremesurvivaldatapack:nether_apollo_bow"
 	}
 }

@@ -1,11 +1,10 @@
 {
 	"values":
 	[
-		"itz_smp_lvl2:morido",
-		"itz_smp_lvl2:buff",
-		"itz_smp_lvl2:end_buff",
-		"itz_smp_lvl2:end_buff2",
-		"itz_smp_lvl2:armor_buff",
-		"itz_smp_lvl2:healt_buff"
+		"extremesurvivaldatapack:armor_buffs/armor_buff",
+		"extremesurvivaldatapack:death/morido",
+		"extremesurvivaldatapack:the_end/end_buff",
+		"extremesurvivaldatapack:the_end/end_buff2",
+		"extremesurvivaldatapack:buff"
 	]
 }

@@ -6,12 +6,12 @@
 			"trigger":"minecraft:recipe_unlocked",
 			"conditions":
 			{
-				"recipe":"itz_smp_lvl2:netherite_wings"
+				"recipe":"extremesurvivaldatapack:netherite_wings"
 			}
 		}
 	},
 	"rewards":
 	{
-		"function":"itz_smp_lvl2:nether_wings"
+		"function":"extremesurvivaldatapack:nether_wings"
 	}
 }

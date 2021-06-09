@@ -49,5 +49,5 @@ team modify Cyan color aqua
 #team modify Cyan nametagVisibility hideForOtherTeams
 team modify Cyan friendlyFire false
 
-
+execute if entity @a[scores={Muertes=1}] run scoreboard players reset @a Muertes
 #function itz_smp_lvl2:give_recipes
