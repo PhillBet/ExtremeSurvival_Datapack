@@ -42,7 +42,7 @@ enchant @e[type=minecraft:pillager] minecraft:piercing 4
 effect give @e[type=pillager] resistance 1 2 true
 item replace entity @e[type=pillager,tag=!buffed] weapon.mainhand with crossbow{Enchantments: [{id: "quick_charge", lvl: 5}]}
 tag @e[type=minecraft:pillager] add buffed
-item replace entity @e[type=vindicator,tag=buffed] weapon.mainhand with netherite_axe{Enchantments: [{id: "mending", lvl: 1}, {id: "sharpness", lvl: 3}]}
+item replace entity @e[type=vindicator,tag=buffed] weapon.mainhand with netherite_axe{Enchantments: [{id: "mending", lvl: 1}, {id: "sharpness", lvl: 5}]}
 tag @e[type=minecraft:vindicator] add buffed
 effect give @e[type=evoker] invisibility 1 0 false
 #effect give @e[type=evoker] glowing 1 0 false
@@ -50,7 +50,6 @@ effect give @e[type=evoker] resistance 1 2 true
 effect give @e[type=ravager] resistance 1 3 true
 effect give @e[type=ravager] strength 1 4 true
 effect give @e[type=vex] fire_resistance 1 0 true
-effect give @e[type=vex] weakness 1 2 true
 
 #Bears
 effect give @e[type=polar_bear] strength 1 3 true
@@ -62,8 +61,8 @@ effect give @e[type=panda] resistance 1 5 true
 effect give @e[type=piglin] strength 1 2 true
 effect give @e[type=piglin_brute] strength 1 5 true
 effect give @e[type=piglin] resistance 1 1 true
-effect give @e[type=hoglin] resistance 1 1 true
-effect give @e[type=zoglin] resistance 1 1 true
+effect give @e[type=hoglin] resistance 1 2 true
+effect give @e[type=zoglin] resistance 1 3 true
 effect give @e[type=zoglin] strength 1 10 true
 effect give @e[type=zombified_piglin] strength 1 5 true
 effect give @e[type=zombified_piglin] resistance 1 1 true
@@ -81,7 +80,7 @@ execute in minecraft:overworld run effect give @e[type=minecraft:phantom] minecr
 execute as @e[type=!minecraft:player,nbt={OnGround: 0b}] run effect clear @s minecraft:resistance
 
 #PETS
-effect give @e[type=wolf] strength 1 1 true
+effect give @e[type=wolf] strength 1 2 true
 effect give @e[type=wolf] resistance 1 4 true
 effect give @e[type=dolphin] strength 1 10 true
 effect give @e[type=dolphin] resistance 1 4 true
