@@ -1,0 +1,4 @@
+recipe take @s extremesurvivaldatapack:infernal_hoe
+advancement revoke @s only extremesurvivaldatapack:infernal_hoe
+give @s minecraft:netherite_hoe{CustomModel: 1, display: {Lore: ['[{"text":"Scythe of death","color":"light_purple"}]'], Name: '[{"text":"Infernal Scythe","bold":true,"color":"gold"}]'}, Enchantments: [{id: "minecraft:fire_aspect", lvl: 1}, {id: "minecraft:knockback", lvl: 3}, {id: "minecraft:sharpness", lvl: 15}, {id: "minecraft:smite", lvl: 15}, {id: "minecraft:unbreaking", lvl: 3}], AttributeModifiers: [{AttributeName: "generic.attack_damage", Name: "generic.attack_damage", Slot: "mainhand", Amount: 40, Operation: 0, UUID: [I; 1049897220, 1032480955, 1065951673, 1796341040]}]} 1
+clear @s knowledge_book 1

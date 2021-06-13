@@ -1,0 +1,17 @@
+{
+	"criteria":
+	{
+		"get_master_sword":
+		{
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe":"extremesurvivaldatapack:infernal_hoe"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function":"extremesurvivaldatapack:infernal_hoe"
+	}
+}
