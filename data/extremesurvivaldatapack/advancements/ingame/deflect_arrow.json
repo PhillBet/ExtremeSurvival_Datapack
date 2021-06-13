@@ -1,0 +1,45 @@
+{
+  "parent":"extremesurvivaldatapack:ingame/root",
+  "display": 
+  {
+    "icon": 
+    {
+      "item": "minecraft:shield",
+      "nbt": "{Damage:0}"
+    },
+    "title": 
+    {
+      "text":"Nel prro"
+    },
+    "description": 
+    {
+      "text":"Pudiste matarme >:v"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deflected_projectile": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true
+          },
+          "blocked": true
+        },
+        "entity": 
+        {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ]
+}

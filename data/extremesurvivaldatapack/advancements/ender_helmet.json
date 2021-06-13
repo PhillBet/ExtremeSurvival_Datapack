@@ -1,0 +1,17 @@
+{
+	"criteria":
+	{
+		"get_end_helmet":
+		{
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe":"extremesurvivaldatapack:ender_helmet"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function":"extremesurvivaldatapack:ender_helmet"
+	}
+}

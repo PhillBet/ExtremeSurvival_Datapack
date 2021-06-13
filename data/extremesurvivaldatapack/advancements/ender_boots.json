@@ -1,0 +1,17 @@
+{
+	"criteria":
+	{
+		"get_end_boots":
+		{
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe":"extremesurvivaldatapack:ender_boots"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function":"extremesurvivaldatapack:ender_boots"
+	}
+}
