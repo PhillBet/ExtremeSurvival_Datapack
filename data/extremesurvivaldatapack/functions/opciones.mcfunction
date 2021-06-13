@@ -50,4 +50,8 @@ team modify Cyan color aqua
 team modify Cyan friendlyFire false
 
 execute if entity @a[scores={Muertes=1}] run scoreboard players reset @a Muertes
-#function itz_smp_lvl2:give_recipes
+
+recipe give @a extremesurvivaldatapack:ligth
+recipe give @a extremesurvivaldatapack:fly
+recipe give @a extremesurvivaldatapack:gapple
+recipe give @a extremesurvivaldatapack:verruga

@@ -1,0 +1,17 @@
+{
+	"criteria":
+	{
+		"get_end_chestplate":
+		{
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe":"extremesurvivaldatapack:ender_chestplate"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function":"extremesurvivaldatapack:ender_chestplate"
+	}
+}

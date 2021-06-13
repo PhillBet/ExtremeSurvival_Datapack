@@ -1,0 +1,28 @@
+{
+  "parent":"extremesurvivaldatapack:ingame/root",
+  "display": 
+  {
+    "icon": 
+    {
+      "item":"minecraft:wither_rose"
+    },
+    "title": 
+    {
+      "text":"Wasted"
+    },
+    "description": 
+    {
+      "text":"F en el chat"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "morir": 
+      {
+        "trigger": "minecraft:impossible"
+      }
+  }
+}

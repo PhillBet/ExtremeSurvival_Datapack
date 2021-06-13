@@ -1,0 +1,17 @@
+{
+	"criteria":
+	{
+		"get_end_leggings":
+		{
+			"trigger":"minecraft:recipe_unlocked",
+			"conditions":
+			{
+				"recipe":"extremesurvivaldatapack:ender_leggings"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function":"extremesurvivaldatapack:ender_leggings"
+	}
+}

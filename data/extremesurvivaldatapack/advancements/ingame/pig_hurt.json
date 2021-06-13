@@ -1,0 +1,45 @@
+{
+  "display":
+    {
+      "description":
+        {
+          "text":"Eres un monstruo sin corazon >:'v",
+          "color":"light_purple"
+        },
+      "title":
+        {
+          "text":"Odia a los cerditos",
+          "bold":true,
+          "color":"light_purple"
+        },
+      "icon":
+        {
+          "item":"pig_spawn_egg"
+        },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+  "criteria": 
+  {
+    "damage_pig": 
+    {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": 
+      {
+        "entity": 
+        {
+          "type": "minecraft:pig"
+        }
+      }
+    }
+  },
+  "requirements": 
+    [
+      [
+        "damage_pig"
+      ]
+    ],
+  "parent":"extremesurvivaldatapack:ingame/root"
+}
