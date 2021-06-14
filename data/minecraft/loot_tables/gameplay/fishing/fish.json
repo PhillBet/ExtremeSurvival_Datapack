@@ -28,7 +28,7 @@
         {
           "type": "minecraft:item",
           "weight": 13,
-          "name": "minecraft:axolotl_bucket"
+          "name": "minecraft:bucket"
         }
       ]
     }

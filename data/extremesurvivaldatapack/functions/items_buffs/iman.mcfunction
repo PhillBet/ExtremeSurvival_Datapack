@@ -1,1 +1,0 @@
-execute as @s run tp @e[type=minecraft:item,distance=5..10] @s

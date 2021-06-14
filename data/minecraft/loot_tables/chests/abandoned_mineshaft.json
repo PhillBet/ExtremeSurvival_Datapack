@@ -175,7 +175,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:glow_berries"
+          "name": "minecraft:torch"
         },
         {
           "type": "minecraft:item",

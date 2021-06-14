@@ -55,7 +55,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:moss_block"
+          "name": "minecraft:mossy_stone_bricks"
         },
         {
           "type": "minecraft:item",

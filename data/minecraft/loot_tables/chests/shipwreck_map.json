@@ -65,7 +65,7 @@
               "add": false
             }
           ],
-          "name": "minecraft:glow_ink_sac"
+          "name": "minecraft:ink_sac"
         },
         {
           "type": "minecraft:item",
